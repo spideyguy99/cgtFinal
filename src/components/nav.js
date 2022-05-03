@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, MenuItem, MenuList, Paper } from '@mui/material';
+import { MenuItem, MenuList, Paper } from '@mui/material';
 
 import Logo from './media/new.png';
 
@@ -9,7 +9,7 @@ export default function Nav(){
         <div className='navHolder'>
             <Paper>
                 <div className='logo'>
-                    <img src={Logo}/>
+                    <img src={Logo} alt="company logo"/>
                 </div>
                 <div style={{width:'100%', height:'2px', backgroundColor: 'grey'}}/>
                 <MenuList  className='nav'>
