@@ -1,0 +1,85 @@
+/*GLOBAL STYLING*/
+p {
+  font-size: x-large;
+  color: grey;
+  text-align: center;
+}
+.paper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*NAVIGATION STYLING*/
+.navHolder {
+  justify-content: center;
+  display: inline;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo{
+  width: 100%;
+}
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/*CONTAINER STYLING*/
+.container {
+  background-color: aliceblue;
+  margin: 0;
+}
+
+
+/* HOME PAGE STYLING */
+.paperImg {
+  width: 70%;
+}
+.homeContent {
+  width: 20%;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aqua;
+  text-align: center;
+}
+.homeContent h1  {
+  width: 100%;
+}
+
+/*ABOUT STYLING*/
+.aboutHolder {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+/*RECIPE STYLING*/
+.recipeLeft{
+  width: 70%;
+  text-align: center;
+}
+.recipeRightHolder{
+  text-align: center;
+  background-color: greenyellow;
+  width:30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipeRight {
+  margin: auto;
+}
+.recipeRight h3 {
+  color: darkgreen;
+  width: 100%;
+}
+.recipeImg{
+  width: 100%;
+}
